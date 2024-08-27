@@ -5,7 +5,6 @@ import { MISCELLANEOUS } from '@hey/data/tracking';
 import { Leafwatch } from '@lib/leafwatch';
 import Link from 'next/link';
 import { useFeatureFlagsStore } from 'src/store/persisted/useFeatureFlagsStore';
-import urlcat from 'urlcat';
 
 const Footer: FC = () => {
   const staffMode = useFeatureFlagsStore((state) => state.staffMode);
@@ -66,20 +65,6 @@ const Footer: FC = () => {
           onClick={() => Leafwatch.track(MISCELLANEOUS.FOOTER.OPEN_SUPPORT)}
         >
           Support
-        </Link>
-      </div>
-      <div className="mt-2">
-        <Link
-          className="hover:font-bold"
-          href={urlcat('https://vercel.com', {
-            utm_campaign: 'oss',
-            utm_source: APP_NAME
-          })}
-          onClick={() => Leafwatch.track(MISCELLANEOUS.FOOTER.OPEN_VERCEL)}
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          ▲ Powered by Vercel
         </Link>
       </div>
     </footer>

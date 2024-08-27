@@ -23,7 +23,7 @@ export const REFERRER_ID = IS_MAINNET ? '0x0c' : '0x06';
 export const ADDRESS_PLACEHOLDER = '0x03Ba3...7EF';
 
 // Application
-export const APP_NAME = 'Hey';
+export const APP_NAME = 'Circle';
 export const DESCRIPTION = `${APP_NAME}.xyz is a decentralized, and permissionless social media app built with Lens Protocol 🌿`;
 export const APP_VERSION = packageJson.version;
 export const BRAND_COLOR = '#FB3A5D';

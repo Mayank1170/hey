@@ -19,8 +19,8 @@ class HeyDocument extends Document {
 
           {/* PWA config */}
           <link href="/manifest.json" rel="manifest" />
-          <meta content="Hey" name="application-name" />
-          <meta content="Hey" name="apple-mobile-web-app-title" />
+          <meta content="Circle" name="application-name" />
+          <meta content="Circle" name="apple-mobile-web-app-title" />
           <meta content="yes" name="mobile-web-app-capable" />
           <meta content="yes" name="apple-mobile-web-app-capable" />
           <meta
