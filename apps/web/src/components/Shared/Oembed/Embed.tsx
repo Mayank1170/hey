@@ -70,7 +70,7 @@ const Embed: FC<EmbedProps> = ({ og, publicationId }) => {
                         alt="Favicon"
                         className="size-4 rounded-full"
                         height={16}
-                        src={og.favicon}
+                        // src={og.favicon}
                         width={16}
                       />
                     ) : null}
